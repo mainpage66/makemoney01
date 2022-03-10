@@ -4056,4 +4056,13 @@
         <p class="bx-age-modal-tips"></p>
       </div>
     </div>
-  </div></body></html>
+  </div>
+  <script>
+    
+    var btn = document.querySelector(".bx-age-modal-close")
+    console.log(btn)
+		btn.addEventListener('click',function(){
+			document.querySelector(".bx-age-modal-mask").className = 'bx-age-modal-mask'
+		},false)
+    </script>
+  </body></html>
